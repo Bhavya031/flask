@@ -17,6 +17,7 @@ jobs:
     with:
       prisme_ref: main
       config: configs/portfolio.json
+      allow_anyone: true
     secrets:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
